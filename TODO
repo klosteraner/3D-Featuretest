@@ -1,0 +1,53 @@
+***********************
+TODO for 3D-Featuretest
+***********************
+
+
+22.7. *****************
+
+0. Compose first TODO list
+done
+
+1. Introduce Folder Projekte/3D-Featuretest in local filesystem
+done
+
+2. Initialize Git locally:
+	2.1 git init
+	done
+	2.2 use identity klosteraner
+	done
+
+	2.3 add brief project description in README
+	done
+
+	2.4 Initialize .gitignore
+	done
+
+	2.5 make initial commit
+	done
+
+	2.6 start branches version1 and version1_dev
+	done	
+
+	2.7 add/commit this TODO to branch version1_dev 
+	done
+
+3. Initialize 3D-Featuretest in Github:
+	3.1 
+
+4. Prepare some simple ply-files in Folder samples
+
+5. Make 1. structuredraft of C++programm
+	5.1 on a sheet of paper
+	
+	5.2 sketch digitally
+
+	5.3 make structure
+
+	5.4 and commit on new branch firstdraft
+
+	5.5 Update TODO
+
+
+Ideas for next TODO
+-
