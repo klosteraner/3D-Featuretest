@@ -1,0 +1,21 @@
+*******************************************************************
+*
+* 3D-Featuretest
+*
+* A small Gadget to manipulate 3D data.
+*
+*******************************************************************
+*
+* Is mainly a first try to outline a softwareproject.
+* The mainuse is to have some familiar reference cooking plate 
+* for futureprojects.
+*
+* In its first version it should be able to read/write .ply files
+* to the locally used CGAL halfedge datastructure as well as provide
+* an interface to manipulate the data by MCF.
+*
+* In a second version the manipulator should be generalized to some
+* more functions. Additionally it should resolve issues appearing in
+* the development of the first version.
+*
+********************************************************************
