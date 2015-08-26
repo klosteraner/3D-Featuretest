@@ -1,0 +1,76 @@
+***********************************************************
+This Readme gives graphical picture of the simpler samples:
+***********************************************************
+
+unitsimplex_xy.ply
+
+2
+| \
+0- 1
+
+************************
+
+square_xz.ply
+
+3 - 2
+| /	|
+0 - 1
+
+************************
+
+square_with_int_point_xy.ply
+
+4  -  3
+|\	 /|
+|  0  |
+|/   \|
+1  -  2
+
+************************
+
+hexagon_xy.ply
+
+	3 - 2
+   / \ / \
+  4 - 0 - 1
+   \ / \ /
+	5 - 6
+
+************************
+
+pyramid_xy.ply
+
+4  -  3
+|\	 /|
+|  0  |
+|/   \|
+1  -  2
+	
+where 5 has z-coordinate 1, the rest has 0
+
+*************************
+
+mountain_xy.ply
+
+8  -  7  -  6  -  5
+|\	 / \   / \   /|
+|  9  -  10 -  0  |
+|/   \ /   \ /   \|
+1  -  2  -  3  -  4
+	
+where 9,10,11 have z-coordinate 1, the rest has 0
+
+**************************
+
+random_square_xy.ply
+
+11 -22 ... 121
+|			|
+...	*		
+| \	 		...
+2 - 13
+| \	 | \	|
+1 - 12 ... 111
+
+with 0 on boundary and random in interior
+

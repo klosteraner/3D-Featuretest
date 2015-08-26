@@ -1,0 +1,20 @@
+ply
+format ascii 1.0
+comment This is a square in the xy-plane 
+comment composed by 4 triangles having an interior point
+element vertex 5
+property float x
+property float y
+property float z
+element face 4
+property list uchar int vertex_index
+end_header
+.5 .5 0
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+3 1 2 0
+3 2 3 0
+3 3 4 0
+3 4 1 0

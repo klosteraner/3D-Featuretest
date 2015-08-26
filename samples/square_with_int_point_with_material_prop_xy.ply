@@ -1,0 +1,30 @@
+ply
+format ascii 1.0
+comment This is a square in the xy-plane composed by 4 triangles having an interior point
+comment the materialindeces coincides with the vertexindeces
+element vertex 5
+property float x
+property float y
+property float z
+element face 4
+property list uchar int vertex_index
+element material 5
+property float diffus_red
+property float diffus_green
+property float diffus_blue
+property float spec_diffus_red
+property float spec_diffus_green
+property float spec_diffus_blue
+property float spec_red
+property float spec_green
+property float spec_blue
+end_header
+.5 .5 0
+0 0 0
+1 0 0
+1 1 0
+0 1 0
+3 1 2 0
+3 2 3 0
+3 3 4 0
+3 4 1 0
